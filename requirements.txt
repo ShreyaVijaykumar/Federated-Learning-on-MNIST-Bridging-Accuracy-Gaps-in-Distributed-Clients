@@ -1,0 +1,6 @@
+torch==2.2.2
+torchvision==0.17.2
+numpy==1.26.4
+matplotlib==3.9.2 #Extra utilities
+pandas==2.2.2 #Extra utilities
+scikit-learn==1.5.1 #Extra utilities
