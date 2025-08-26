@@ -1,4 +1,4 @@
-# Federated Learning on MNIST: Bridging Accuracy Gaps in Distributed Clients
+# Federated Learning on MNIST – bridging accuracy gaps across noisy and clean clients
 
 Federated Learning (FL) enables multiple clients to collaboratively train a model **without sharing raw data**, ensuring privacy and efficiency.  
 This project demonstrates **how FL improves model performance for clients with different data qualities** using the MNIST dataset.  
