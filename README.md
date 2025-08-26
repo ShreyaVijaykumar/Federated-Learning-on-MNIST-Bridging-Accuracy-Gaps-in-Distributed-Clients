@@ -57,15 +57,16 @@ This project demonstrates **how FL improves model performance for clients with d
 
 ## 🛠️ Installation & Usage  
 
-### 1️⃣ Clone the Repository  
+###**To install & use this repo **
 ```bash
+# Step-1: to clone the repo
 git clone https://github.com/ShreyaVijaykumar/federated-mnist.git
 cd federated-mnist
 
-2️⃣ Create Virtual Environment & Install Dependencies
+# Step-2: Create Virtual Environment & Install Dependencies
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
-3️⃣ Run the Training
+# Step-3: Run the Training
 python federated_mnist.py
