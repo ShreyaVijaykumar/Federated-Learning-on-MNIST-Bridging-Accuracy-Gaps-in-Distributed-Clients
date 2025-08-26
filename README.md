@@ -4,7 +4,6 @@ Federated Learning (FL) enables multiple clients to collaboratively train a mode
 This project demonstrates **how FL improves model performance for clients with different data qualities** using the MNIST dataset.  
 
 ---
-
 ## 🚀 Project Overview  
 - **Client 1:** Trains on standard MNIST data (clean, high-quality).  
 - **Client 2:** Trains on noisy MNIST data (simulating real-world harder cases).  
@@ -12,7 +11,6 @@ This project demonstrates **how FL improves model performance for clients with d
 - **Solution:** Apply **Federated Averaging (FedAvg)** to merge client models and train collaboratively.  
 
 ---
-
 ## 📊 Results  
 
 | Client | Accuracy Before FL | Accuracy After FL |
@@ -20,10 +18,16 @@ This project demonstrates **how FL improves model performance for clients with d
 | Client 1 (clean MNIST) | ~77.5% | **97.9%** |
 | Client 2 (noisy MNIST) | ~72.5% | **96.3%** |
 
-✅ **Federated Learning successfully bridges the performance gap** between clean and noisy data clients.  
-
+![Sample Input and Output](assets/ai_ip_op.png)
+ **Federated Learning successfully bridges the performance gap** between clean and noisy data clients.
+ 
 ---
+## ✅ Insights
+ ![FL accuracy across rounds](assets/ai_graph.png)
 
+ ![Accuracy Comparison between Clients with before and after FL](assets/ai_finalresult.png)
+ 
+---
 ## 📂 Dataset  
 - **MNIST Handwritten Digit Dataset** (60,000 train, 10,000 test)  
 - Source: [MNIST on torchvision](https://pytorch.org/vision/stable/generated/torchvision.datasets.MNIST.html)  
@@ -47,14 +51,12 @@ This project demonstrates **how FL improves model performance for clients with d
 - Output: 10 classes (digits 0–9)
 
 ---
-
 📈 **Key Learning Outcomes**
 - Understand data heterogeneity problem in Federated Learning.
 - Implement Federated Averaging (FedAvg).
 - Demonstrate how collaborative training boosts generalization across clients.
 
 ---
-
 ## 🛠️ Installation & Usage  
 
 ###**To install & use this repo **
