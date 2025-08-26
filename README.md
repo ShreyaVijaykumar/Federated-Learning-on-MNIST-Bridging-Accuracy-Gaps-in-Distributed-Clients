@@ -40,9 +40,32 @@ This project demonstrates **how FL improves model performance for clients with d
 
 ---
 
+##🧠 **Model Architecture**
+- Simple Neural Network (fully connected):
+- Input: 28×28 flattened image
+- Hidden Layer: 128 neurons (ReLU)
+- Output: 10 classes (digits 0–9)
+
+---
+
+📈 **Key Learning Outcomes**
+- Understand data heterogeneity problem in Federated Learning.
+- Implement Federated Averaging (FedAvg).
+- Demonstrate how collaborative training boosts generalization across clients.
+
+---
+
 ## 🛠️ Installation & Usage  
 
 ### 1️⃣ Clone the Repository  
 ```bash
 git clone https://github.com/ShreyaVijaykumar/federated-mnist.git
 cd federated-mnist
+
+2️⃣ Create Virtual Environment & Install Dependencies
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+
+3️⃣ Run the Training
+python federated_mnist.py
