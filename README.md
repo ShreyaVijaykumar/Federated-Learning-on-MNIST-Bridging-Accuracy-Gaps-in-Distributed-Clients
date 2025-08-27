@@ -44,7 +44,7 @@ This project demonstrates **how FL improves model performance for clients with d
 
 ---
 
-##🧠 **Model Architecture**
+🧠 **Model Architecture**
 - Simple Neural Network (fully connected):
 - Input: 28×28 flattened image
 - Hidden Layer: 128 neurons (ReLU)
