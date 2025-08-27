@@ -55,7 +55,7 @@ This project demonstrates **how FL improves model performance for clients with d
 - Understand data heterogeneity problem in Federated Learning.
 - Implement Federated Averaging (FedAvg).
 - Demonstrate how collaborative training boosts generalization across clients.
-
+- For clear explanation, read my [blog on medium](https://medium.com/@shreyavj.05/how-federated-learning-solves-the-accuracy-gap-in-heterogeneous-data-8739470447e0)
 ---
 ## 🛠️ Installation & Usage  
 
