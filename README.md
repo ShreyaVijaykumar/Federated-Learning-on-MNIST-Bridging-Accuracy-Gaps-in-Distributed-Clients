@@ -59,7 +59,7 @@ This project demonstrates **how FL improves model performance for clients with d
 ---
 ## 🛠️ Installation & Usage  
 
-###**To install & use this repo **
+To install & use this repo
 ```bash
 # Step-1: to clone the repo
 git clone https://github.com/ShreyaVijaykumar/federated-mnist.git
